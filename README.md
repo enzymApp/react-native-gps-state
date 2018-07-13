@@ -1,19 +1,21 @@
 # React Native GPS State
 
+> Fork of [neuberoliveira/react-native-gps-state](https://github.com/neuberoliveira/react-native-gps-state) with fixes for latest RN.
+
 ### React Native Listener for GPS status changes
 This lib will emitevent wheneaver the GPS status change, like when the permission was rejected or user disable Location service in system Settings.
 
 ### Instalation
 1. Add library to project
-   - `yarn add react-native-gps-state`
-   - OR `npm install --save react-native-gps-state`
+   - `yarn add @digidem/react-native-gps-state`
+   - OR `npm install --save @digidem/react-native-gps-state`
 2. Link library to project
-   - `react-native link react-native-gps-state`
+   - `react-native link @digidem/react-native-gps-state`
 
-### Usage 
+### Usage
 
 ### Constants
-| Platform 			| Status Code 	| Constant 				| Description 		
+| Platform 			| Status Code 	| Constant 				| Description
 | :--- 				| :---:			| :--- 					| :---
 | IOS/Android		| 0 	 		| NOT_DETERMINED 		| The user has not yet made a choice regarding whether this app can use location services.
 | IOS/Android		| 1 	 		| RESTRICTED 			| This app is not authorized to use location services.
